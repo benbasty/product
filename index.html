@@ -6,16 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 
   </head>
   <body>
     <section class="testimonials" id="testimonials">
       <div class="container">
-          <nav class="navbar navbar-expand-lg">
+          <nav class="navbar navbar-expand-lg navbar-light">
               <a class="navbar-brand" href="#"> <i class="fab fa-atlassian"></i> ATLAS</a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigationBar">
-                <span class="navabr-toggler-icon"></span>
+              <button class="navbar-toggle navbar-toggler" type="button" data-toggle="collapse" data-target="#navigationBar">
+                <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navigationBar">
                 <ul class="navbar-nav mr-auto">
@@ -53,10 +54,10 @@
               </div>
             </nav>
         <div class="row">
-          <div class="col-12">
+          <div class="col-12" data-aos="fade-left">
             <h1 class="testimonials-head text-center">What our clients say about Atlas</h1>
           </div>
-          <div class="testimonials-box col-12 d-flex">
+          <div class="testimonials-box col-12 d-flex" data-aos="fade-right">
               <div class="col-md-5">
                   <div class="blue-box">
                       <h1><i class="fas fa-quote-left"></i></h1>
@@ -75,24 +76,24 @@
     <section class="functionalities" id="functionalities">
       <div class="container">
           <div class="row text-center functionalities-head pt-5">
-              <div class="col">
+              <div class="col-12 col-md-6" data-aos="fade-up">
                 <h5>Ease of use</h5>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam repellendus laborum explicabo libero iste unde. Amet distinctio nisi labore praesentium iste cumque unde architecto? Facilis, obcaecati molestias! Asperiores, hic praesentium?</p>
               </div>
-              <div class="col">
+              <div class="col-12 col-md-6" data-aos="fade-down">
                 <h5>Best Results</h5>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At alias ipsum autem neque cupiditate totam nisi eligendi, dicta minus provident! Hic quae reiciendis atque nemo nostrum, culpa aperiam tempora impedit.</p>
               </div>
           </div>
           <div class="row functionalities-bottom pt-5">
-              <div class="col-7">
+              <div class="col-7 col-md-6" data-aos="fade-left">
                 <h6>Take a solid start</h6>
                 <h4>Atlas for sport apps</h4>
                 <p>Having trouble figuring out your next workout plans ? Don't worry, with Atlas you no longer need to.</p>
                 <p>The most avanced technology and detailed plans for the best workout.</p>
                 <a href="#">Call To Action <span><i class="fas fa-play"></i></span></a>
               </div>
-              <div class="col-5">
+              <div class="col-5 col-md-6" data-aos="fade-right">
                 <img src="img/business-woman.jpg" alt="">
                 <div class="purple-box">
                     <h1><i class="fas fa-quote-left"></i></h1>
@@ -106,12 +107,12 @@
     <section class="advantages" id="advantages">
       <div class="container">
         <div class="row">
-          <div class="col advantages-intro"> 
+          <div class="col advantages-intro" data-aos="fade-down"> 
               <h1>Atlas is built for happy and motivated people like you. With useful features, an <br> interface and powerful plugins by a community of fitness masters and developers, <br> it helps you focus on what you do best.</h1>
           </div>
         </div>
         <div class="row">
-          <div class="col">
+          <div class="col-12 col-md-6" data-aos="fade-left">
               <div class="first-white-box">
                   <h1><i class="fas fa-quote-left"></i></h1>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda sapiente quaerat itaque placeat dolores architecto, dignissimos distinctio. Sequi quam harum assumenda et itaque cupiditate alias fuga, modi earum, deserunt mollitia.</p>
@@ -128,7 +129,7 @@
                   </div>       
               </div> 
           </div>
-          <div class="col">
+          <div class="col-12 col-md-6" data-aos="fade-right">
               <div class="second-white-box">
                   <h1><i class="fas fa-quote-left"></i></h1>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda sapiente quaerat itaque placeat dolores architecto, dignissimos distinctio. Sequi quam harum assumenda et itaque cupiditate alias fuga, modi earum, deserunt mollitia.</p>
@@ -148,7 +149,7 @@
         </div>
 
         <div class="row">
-            <div class="col">
+            <div class="col-12 col-md-6" data-aos="fade-right">
                 <div class="third-white-box">
                     <h1><i class="fas fa-quote-left"></i></h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda sapiente quaerat itaque placeat dolores architecto, dignissimos distinctio. Sequi quam harum assumenda et itaque cupiditate alias fuga, modi earum, deserunt mollitia.</p>
@@ -165,7 +166,7 @@
                     </div>       
                 </div>     
             </div>
-            <div class="col">
+            <div class="col-12 col-md-6" data-aos="fade-left">
                 <div class="forth-white-box">
                     <h1><i class="fas fa-quote-left"></i></h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda sapiente quaerat itaque placeat dolores architecto, dignissimos distinctio. Sequi quam harum assumenda et itaque cupiditate alias fuga, modi earum, deserunt mollitia.</p>
@@ -180,10 +181,7 @@
                     <h6 class="forth-testimonial-name-details-perf">Andrew Reynolds</h6>
                     <h6 class="forth-testimonial-name-details-act">Director at Dribble</h6>
                   </div>       
-                </div>    
-              
-                
-
+                </div> 
             </div>
                
           </div>
@@ -191,8 +189,8 @@
     </section>
     <section class="functionalities-plus" id="functionalities-plus">
         <div class="container">
-            <div class="row more-functionalities pt-5">
-                <div class="col-5">
+            <div class="row more-functionalities account">
+                <div class="col-5" data-aos="fade-up">
                     <img src="img/business-man.jpg" alt="">
                     <div class="green-box">
                         <h1><i class="fas fa-quote-left"></i></h1>
@@ -200,7 +198,7 @@
                         <h6>John Potra, CEO at COMATO</h6>
                     </div>
                   </div>
-                <div class="col-7">
+                <div class="col-7" data-aos="fade-down">
                   <h6>Introducing</h6>
                   <h4>Atlas for Diet apps</h4>
                   <p>Having trouble figuring out your next workout plans ? Don't worry, with Atlas you no longer need to.</p>
@@ -213,28 +211,28 @@
       </section>
       <section class="illustration" id="illustration">
         <div class="container">
-          <div class="row"> 
+          <div class="row" data-aos="fade-up"> 
               <div class="col advantages-intro"> 
                   <h1>Atlas is built for happy and motivated people like you. With useful features, an <br> interface and powerful plugins by a community of fitness masters and developers, <br> it helps you focus on what you do best.</h1>
               </div>
           </div>
-          <div class="row illustration-brands d-flex justify-content-center">
+          <div class="row illustration-brands">
             
-                <div class="col-3">
+                <div class="col-12 col-md-4" data-aos="fade-left">
                     <div class="medium-white-box first-item">
                       <i class="fas fa-basketball-ball"></i>
                       <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta explicabo, ea in eveniet dolorem impedit mollitia quas fugit architecto doloribus nobis aut sit maxime voluptatem alias vero, magnam tempore autem.</p>
                       <h5>Lorem Ipsum</h5>
                     </div>
                   </div>
-                  <div class="col-3">
+                  <div class="col-12 col-md-4" data-aos="fade-down">
                       <div class="medium-white-box second-item">
                           <i class="fas fa-atom"></i>
                           <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta explicabo, ea in eveniet dolorem impedit mollitia quas fugit architecto doloribus nobis aut sit maxime voluptatem alias vero, magnam tempore autem.</p>
                           <h5>Lorem Ipsum</h5>
                       </div>
                   </div>
-                  <div class="col-3">
+                  <div class="col-12 col-md-4" data-aos="fade-right">
                     <div class="medium-white-box third-item">
                         <i class="fab fa-apple"></i>
                         <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta explicabo, ea in eveniet dolorem impedit mollitia quas fugit architecto doloribus nobis aut sit maxime voluptatem alias vero, magnam tempore autem.</p>
@@ -250,20 +248,20 @@
         <div class="container">
           <div class="row">
             <div class="col-12 d-flex brands-showcase">
-                <div><i class="fab fa-android"></i></div>
-                <div><i class="fab fa-foursquare"></i></div>
-                <div><i class="fab fa-sketch"></i></div>
-                <div><i class="fab fa-amazon"></i></div>
-                <div><i class="fab fa-bitcoin"></i></div>
-                <div><i class="fab fa-invision"></i></div>
-                <div><i class="fab fa-apple"></i></div>
-                <div><i class="fab fa-angrycreative"></i></div>
+                <div><i class="fab fa-android" data-aos="fade-up"></i></div>
+                <div><i class="fab fa-foursquare" data-aos="fade-down"></i></div>
+                <div><i class="fab fa-sketch" data-aos="fade-up"></i></div>
+                <div><i class="fab fa-amazon" data-aos="fade-down"></i></div>
+                <div><i class="fab fa-bitcoin" data-aos="fade-up"></i></div>
+                <div><i class="fab fa-invision" data-aos="fade-down"></i></div>
+                <div><i class="fab fa-apple" data-aos="fade-up"></i></div>
+                <div><i class="fab fa-angrycreative" data-aos="fade-down"></i></div>
                 
             </div>
             
           </div>
           <div class="row">
-            <div class="col-6">
+            <div class="col-6 col-md-6 col-sm-6" data-aos="fade-left">
               <div class="wide-white-box extra1 d-flex">
                   <div class="extra-icon">
                     <i class="fas fa-book"></i>
@@ -274,7 +272,7 @@
                     </div>
               </div>
             </div>
-            <div class="col-6">
+            <div class="col-6 col-md-6 col-sm-6" data-aos="fade-right">
               <div class="wide-white-box extra2 d-flex">
                   <div class="extra-icon">
                     <i class="fas fa-building"></i>
@@ -287,30 +285,30 @@
             </div>
           </div>
           <div class="row account pb-5">
-            <div class="col-md-6">
+            <div class="col-4 col-md-5 col-sm-5" data-aos="fade-left">
               <h5>Ready to get started ?</h5>
               <h4>Get in touch, or create an account</h4>
             </div>
-            <div class="col-md-4 link">
+            <div class="col-6 col-md-5 col-sm-5 link" data-aos="fade-up">
               
                 <a href="#"><button type="button" class="btn btn-primary">Create free account today <i class="fas fa-play"></i></button></a>
               
             </div>
-            <div class="col-md-2 docs">
+            <div class="col-2 col-md-2 col-sm-2 docs" data-aos="fade-right">
               <a href="#"><button type="button" class="btn btn-light">View Docs</button></a>
             </div>
           </div>
         </div>
       </section>
-      <footer id="infos" class="infos pt-5" >
+      <section id="infos" class="infos pt-5" >
         <div class="container">
           <div class="row infos-footer">
-            <div class="col-3 brand">
+            <div class="col-3 col-md-3 col-sm-3 brand" data-aos="fade-up">
                 <a class="navbar-brand" href="#"> <i class="fab fa-atlassian"></i> ATLAS</a>
                 <h6>Atlas has it all. Build without worrying.</h6>
                 <h6>Earn and get pad quicly</h6>
             </div>
-            <div class="col-2 footer-product">
+            <div class="col-2 col-md-2 col-sm-2 footer-product" data-aos="fade-down">
               <h5>Product</h5>
               <h6><a href="" class="">Home</a></h6>
               <h6><a href="#" class="">Features</a></h6>
@@ -319,20 +317,20 @@
               <h6><a href="#" class="">Reviews</a></h6>
               <h6><a href="#" class="">Pricing</a></h6>
             </div>
-            <div class="col-2 footer-company">
+            <div class="col-2 col-md-2 col-sm-2 footer-company" data-aos="fade-up">
               <h5>Company</h5>
               <h6><a href="#" class="">About</a></h6>
               <h6><a href="#" class="">Blog</a></h6>
               <h6><a href="#" class="">Forums</a></h6>
             </div>
-            <div class="col-2 footer-ressources">
+            <div class="col-2 col-md-2 col-sm-2 footer-ressources" data-aos="fade-down">
               <h5>Resources</h5>
               <h6><a href="#" class="">Terms</a></h6>
               <h6><a href="#" class="">Privacy</a></h6>
               <h6><a href="#" class="">Contact</a></h6>
             </div>
            
-            <div class="col-3 footer-social-media">
+            <div class="col-2 col-md-2 col-sm-2 footer-social-media" data-aos="fade-up">
               <h5 class="">Join our community</h5>
               <div class="footer-social-media-icons d-flex text-center">
                 <a href="#"> <i class="fab fa-facebook"></i> </a>
@@ -343,11 +341,11 @@
               </div>
             </div>
           </div>
-          <div class="copyright-infos text-right">
+          <div class="copyright-infos text-right" data-aos="fade-left">
             <p>Copyright &copy; 2019 All Rights Reserved By Atlas</p>
           </div>
         </div>
-      </footer>
+      </section>
     
     
 
@@ -363,8 +361,10 @@
 
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script type="text/javascript" src="js/script.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script src="https://kit.fontawesome.com/16437b9baf.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        
   </body>
 </html>
